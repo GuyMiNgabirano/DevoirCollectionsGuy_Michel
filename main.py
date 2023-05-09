@@ -95,3 +95,11 @@ noms.clear()
 # Afficher la liste vide
 for i in noms:
     print(i)
+
+# 11.  Supprimer la liste
+print("---- Supprimer la liste----")
+
+# Suppression d'une liste
+del noms
+
+#--------------------------------------------------------------------------------------------------------------------------
