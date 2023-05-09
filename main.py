@@ -68,3 +68,12 @@ del noms[2]
 # Afficher une nouvelle liste après avoir Supprimer l'élément à l’index numéro 2
 for i in noms:
     print(i)
+
+# 8.  Ordonner la liste
+print("---- Ordonner la liste----")
+ 
+noms.sort()
+
+# Afficher une liste bien ordonnée
+for i in noms:
+    print(i)
