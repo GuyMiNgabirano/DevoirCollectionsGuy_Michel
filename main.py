@@ -77,3 +77,12 @@ noms.sort()
 # Afficher une liste bien ordonnée
 for i in noms:
     print(i)
+
+# 9. Afficher la sens au sens inverse
+print("----Afficher la sens au sens inverse----")
+
+noms.reverse()
+
+# Afficher une liste au sens inverse
+for i in noms:
+    print(i)
