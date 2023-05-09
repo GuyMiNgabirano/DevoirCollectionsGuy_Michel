@@ -18,3 +18,17 @@ noms[4]='Ngabire'
 
 for i in noms:
     print(i)
+
+# 3. Créer une nouvelle liste en la remplissant avec les éléments de la liste précédente contenant la lettre "a"
+print("----Créer une nouvelle liste en la remplissant avec les éléments de la liste précédentecontenant la lettre a-----")
+
+Noms=[]
+
+# Prendre les éléments de la premiére liste contenant la lettre "a" et les mettre sur la nouvelle liste
+for i in noms:
+    if "a" in i:
+        Noms.append(i)
+
+# Afficher les nouvelles éléments sur la nouvelle liste
+for j in Noms:
+    print(j)
