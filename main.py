@@ -32,3 +32,12 @@ for i in noms:
 # Afficher les nouvelles éléments sur la nouvelle liste
 for j in Noms:
     print(j)
+
+# 4. Ajouter un élément à la fin de la liste
+print("----Ajouter un élément à la fin de la liste----")
+
+noms.append('Akimana')
+
+# Afficher la liste contenant une nouvelle élément ajouter à la fin de la liste 
+for i in noms:
+    print(i)
