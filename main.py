@@ -1,6 +1,6 @@
 if __name__ == "__main__":
 
-   #Création d'une liste qui contient 10 éléments 
+   # I.Création d'une liste qui contient 10 éléments 
 
    noms=['Ngabirano','Niyongabo','Igiraneza','Musobwa','Niyukuri','Bizindavyi','Nziza','Niyuhire','Irakoze','Ayinkamiye']
 
@@ -39,5 +39,14 @@ print("----Ajouter un élément à la fin de la liste----")
 noms.append('Akimana')
 
 # Afficher la liste contenant une nouvelle élément ajouter à la fin de la liste 
+for i in noms:
+    print(i)
+
+# 5.  Ajouter un élément à l’index numéro 2
+print("----Ajouter un élément à l’index numéro 2----")
+
+noms.insert(2, 'Akimana')
+
+# Afficher la liste contenant une nouvelle élément Ajouter à l’index numéro 2 
 for i in noms:
     print(i)
