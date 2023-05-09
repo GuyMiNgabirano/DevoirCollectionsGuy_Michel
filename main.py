@@ -59,3 +59,12 @@ del noms[2]
 # Afficher une nouvelle liste après avoir supprimer l'élément numéro 3
 for i in noms:
     print(i)
+
+# 7. Supprimer l'élément à l’index numéro 2
+print("------Supprimer l'élément à l’index numéro 2-----")
+
+del noms[2]
+
+# Afficher une nouvelle liste après avoir Supprimer l'élément à l’index numéro 2
+for i in noms:
+    print(i)
