@@ -86,3 +86,12 @@ noms.reverse()
 # Afficher une liste au sens inverse
 for i in noms:
     print(i)
+
+# 10. Vider la liste
+print("----Vider la liste----")
+
+noms.clear()
+
+# Afficher la liste vide
+for i in noms:
+    print(i)
