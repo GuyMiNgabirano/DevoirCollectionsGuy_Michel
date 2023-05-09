@@ -50,3 +50,12 @@ noms.insert(2, 'Akimana')
 # Afficher la liste contenant une nouvelle élément Ajouter à l’index numéro 2 
 for i in noms:
     print(i)
+
+# 6. Supprimer l'élément numéro 3
+print("------Supprimer l'élément numéro 3-----")
+
+del noms[2]
+
+# Afficher une nouvelle liste après avoir supprimer l'élément numéro 3
+for i in noms:
+    print(i)
