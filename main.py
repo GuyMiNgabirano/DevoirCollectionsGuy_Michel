@@ -9,3 +9,12 @@ if __name__ == "__main__":
 
    for i in noms:
        print(i)
+   
+
+# 2. Changement de contenu  de l'élément numéro 5
+print("----Changer le contenu  de l'élément numéro 5----")
+
+noms[4]='Ngabire'
+
+for i in noms:
+    print(i)
