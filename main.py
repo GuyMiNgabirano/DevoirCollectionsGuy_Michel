@@ -137,3 +137,12 @@ print("----Ordonner la tuple----")
 # Afficher la tuple ordonnée
 numero_ordonnee = sorted(numero)
 print(numero_ordonnee)
+
+# 4. Ajouter un élément à la fin de la tuple
+print("----Ajouter un élément à la fin de la tuple-----")
+
+numero_original = numero
+
+# Numéro ajouter à la fin
+numero += (4,)
+print(numero)
