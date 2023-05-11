@@ -195,3 +195,13 @@ marque_ordinateur.add("Toshiba")
 # Affichage apres avoir ajout un élément
 for i in marque_ordinateur:
     print(i)
+
+# 3. Supprimer un élément
+print("-----Supprimer un élément-----")
+
+# Suppression d'un élément
+marque_ordinateur.remove("Razer")
+
+# Affichage apres avoir supprimer un élément
+for i in marque_ordinateur:
+    print(i)
