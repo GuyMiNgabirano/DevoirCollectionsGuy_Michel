@@ -218,3 +218,8 @@ fichier_etudiant={"Nom":"Ngabirano", "Prenom":"Guy Michel", "Telephone":"+257868
                   "Etat_Civil":"Celibataire", "Date_Naissance":"1/7/2000", "Lieu_Naissance":"Ngagara", 
                   "Domicilité":"Ngagara", "Travail":"Etudiant", "Faculté":"Inforamtique",
                   "Departement":"Genie Logiciel"}
+
+# 1. Afficher le dictionnaire
+print("----Afficher le dictionnaire----")
+
+print(fichier_etudiant)
