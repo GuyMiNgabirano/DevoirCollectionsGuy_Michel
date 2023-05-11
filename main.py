@@ -241,3 +241,13 @@ print("-------Affichage des clés et des valeurs sous le format : Clé : Valeur-
 
 for i,j in fichier_etudiant.items():
     print(f"{i} : {j}")
+
+# 5. Supprimer l'élément à la clé numéro 2
+print("-----Supprimer l'élément à la clé numéro 2-----")
+
+# Suppression d'élément qui se trouve à la clé numéro 2
+key = "Prenom"
+del fichier_etudiant[key]
+
+# Affichage apres avoir supprimer l'élément qui se trouve à la clé numéro 2
+print(fichier_etudiant)
