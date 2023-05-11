@@ -211,3 +211,10 @@ print("-----Supprimer le set-----")
 
 # Suppression de set
 del marque_ordinateur
+
+# IV.Création d'un dictionnaire qui contient 10 éléments
+
+fichier_etudiant={"Nom":"Ngabirano", "Prenom":"Guy Michel", "Telephone":"+257868689", 
+                  "Etat_Civil":"Celibataire", "Date_Naissance":"1/7/2000", "Lieu_Naissance":"Ngagara", 
+                  "Domicilité":"Ngagara", "Travail":"Etudiant", "Faculté":"Inforamtique",
+                  "Departement":"Genie Logiciel"}
