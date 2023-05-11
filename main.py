@@ -235,3 +235,9 @@ print("-------Affichage des valeurs seulement-------")
 
 for i in fichier_etudiant.values():
     print(i)
+
+# 4. Afficher les clés et les valeurs sous le format : Clé : Valeur
+print("-------Affichage des clés et des valeurs sous le format : Clé : Valeur-------")
+
+for i,j in fichier_etudiant.items():
+    print(f"{i} : {j}")
