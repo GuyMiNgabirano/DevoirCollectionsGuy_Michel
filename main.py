@@ -124,3 +124,9 @@ for i in range(len(numero)):
     if n==3:
         index+=1
 print("Le nombre de fois que la valeur 3 apparait dans la tuple est : "+str(index))
+
+# 2.  Afficher le contenu de l'élément numéro 5
+print("---- Afficher le contenu de l'élément numéro 5----")
+
+element_5 = numero[4]
+print(element_5)
