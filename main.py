@@ -251,3 +251,9 @@ del fichier_etudiant[key]
 
 # Affichage apres avoir supprimer l'élément qui se trouve à la clé numéro 2
 print(fichier_etudiant)
+
+# 6. Afficher l'élément de la clé numéro 5
+print("-----Afficher l'élément de la clé numéro 5-----")
+
+key = "Lieu_Naissance"
+print(fichier_etudiant[key])
