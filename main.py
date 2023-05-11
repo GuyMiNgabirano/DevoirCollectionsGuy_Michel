@@ -185,3 +185,13 @@ print("----Affichage d'un set----")
 
 for i in marque_ordinateur:
     print(i)
+
+# 2.  Ajouter un élément
+print("----Ajouter un élément----")
+
+# Ajouter un nouveau élément
+marque_ordinateur.add("Toshiba")
+
+# Affichage apres avoir ajout un élément
+for i in marque_ordinateur:
+    print(i)
