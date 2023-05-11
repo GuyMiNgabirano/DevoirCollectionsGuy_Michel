@@ -229,3 +229,9 @@ print("-------Affichage des clés seulement-------")
 
 for i in fichier_etudiant.keys():
     print(i)
+
+# 3. Afficher seulement les valeurs
+print("-------Affichage des valeurs seulement-------")
+
+for i in fichier_etudiant.values():
+    print(i)
