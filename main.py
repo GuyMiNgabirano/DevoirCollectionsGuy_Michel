@@ -264,3 +264,10 @@ print("------- Ajouter un nouvel élément-------")
 # Ajout d'un nouvel élément
 fichier_etudiant["Classe"] = "Bac3"
 print(fichier_etudiant)
+
+# 8. Créer une copie du dictionnaire
+print("----Créer une copie du dictionnaire-----")
+
+# Création d'une copie d'un dictionnaire
+fichier_etudiant_copy = fichier_etudiant.copy()
+print(fichier_etudiant_copy)
