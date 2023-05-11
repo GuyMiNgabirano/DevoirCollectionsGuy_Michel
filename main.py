@@ -169,3 +169,9 @@ numero_tuple = tuple(numero_list)
 print("-----Afficher une nouvelle tuple apres avoir changer la liste en une tuple----")
 for i in numero_tuple:
     print(i)
+
+# 6. Afficher la nouvelle tuple
+print("-----Afficher la nouvelle tuple-----")
+  
+nouvelle_tuple=numero_tuple
+print(nouvelle_tuple)
