@@ -130,3 +130,10 @@ print("---- Afficher le contenu de l'élément numéro 5----")
 
 element_5 = numero[4]
 print(element_5)
+
+# 3. Ordonner la tuple
+print("----Ordonner la tuple----")
+
+# Afficher la tuple ordonnée
+numero_ordonnee = sorted(numero)
+print(numero_ordonnee)
