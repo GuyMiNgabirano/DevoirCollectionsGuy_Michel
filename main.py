@@ -205,3 +205,9 @@ marque_ordinateur.remove("Razer")
 # Affichage apres avoir supprimer un élément
 for i in marque_ordinateur:
     print(i)
+
+# 4. Supprimer le set
+print("-----Supprimer le set-----")
+
+# Suppression de set
+del marque_ordinateur
