@@ -257,3 +257,10 @@ print("-----Afficher l'élément de la clé numéro 5-----")
 
 key = "Lieu_Naissance"
 print(fichier_etudiant[key])
+
+# 7.  Ajouter un nouvel élément
+print("------- Ajouter un nouvel élément-------")
+
+# Ajout d'un nouvel élément
+fichier_etudiant["Classe"] = "Bac3"
+print(fichier_etudiant)
