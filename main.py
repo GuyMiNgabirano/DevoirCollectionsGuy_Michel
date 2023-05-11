@@ -223,3 +223,9 @@ fichier_etudiant={"Nom":"Ngabirano", "Prenom":"Guy Michel", "Telephone":"+257868
 print("----Afficher le dictionnaire----")
 
 print(fichier_etudiant)
+
+# 2. Afficher seulement les clés
+print("-------Affichage des clés seulement-------")
+
+for i in fichier_etudiant.keys():
+    print(i)
