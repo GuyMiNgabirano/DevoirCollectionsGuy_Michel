@@ -107,3 +107,9 @@ del noms
 # II.Création d'une  tuple qui contient 10 éléments
 
 numero=(101,201,3,40,50,3,370,80,909,100)
+
+print("-----Afficher les éléments de la tuple-----")
+
+# Affichage des éléments de la tuple
+for i in numero:
+    print(i)
