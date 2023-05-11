@@ -113,3 +113,14 @@ print("-----Afficher les éléments de la tuple-----")
 # Affichage des éléments de la tuple
 for i in numero:
     print(i)
+
+# 1. Afficher le nombre de fois la valeur 3 apparait dans la tuple
+print("----Afficher le nombre de fois la valeur 3 apparait dans la tuple----")
+
+index =0
+Val =numero[0]
+for i in range(len(numero)):
+    n=numero[i]
+    if n==3:
+        index+=1
+print("Le nombre de fois que la valeur 3 apparait dans la tuple est : "+str(index))
