@@ -146,3 +146,10 @@ numero_original = numero
 # Numéro ajouter à la fin
 numero += (4,)
 print(numero)
+
+# 5. Ajouter un élément à l’index numéro 3
+print("-----Ajouter un élément à l’index numéro 3----")
+
+# Changer une tuple en une liste
+numero_list = list(numero)
+print(numero_list)
