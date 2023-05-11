@@ -179,3 +179,9 @@ print(nouvelle_tuple)
 # III.Création d'un set qui contient 10 éléments
 
 marque_ordinateur={"Fujistu","Acer","Asus","Dell","HP","Huawei","Lenovo","MSI","Razer","Apple"}
+
+# 1. Afficher le set
+print("----Affichage d'un set----")
+
+for i in marque_ordinateur:
+    print(i)
