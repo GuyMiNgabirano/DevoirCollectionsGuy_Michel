@@ -153,3 +153,19 @@ print("-----Ajouter un élément à l’index numéro 3----")
 # Changer une tuple en une liste
 numero_list = list(numero)
 print(numero_list)
+
+# Ajouter un nouveau élément à l’index numéro 3
+numero_list.insert(3, 707)
+
+#Afficher une liste apres avoir insert un nouveau élément sur l’index numéro 3
+print("-----Afficher une nouvelle liste apres avoir changer la tuple en une liste----")
+for i in numero_list:
+    print(i)
+
+#Changer une liste en une tuple apres avoir insert un nouveau élément sur l’index numéro 3
+numero_tuple = tuple(numero_list)
+
+#Afficher une tuple apres avoir insert un nouveau élément sur l’index numéro 3
+print("-----Afficher une nouvelle tuple apres avoir changer la liste en une tuple----")
+for i in numero_tuple:
+    print(i)
